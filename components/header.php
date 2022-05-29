@@ -11,6 +11,7 @@
 
 <header>
     <h1>Header</h1>
+    <img src="https://picsum.photos/200">
 </header>
 
 <a href="#"><?php echo $phone; ?></a>

@@ -2,7 +2,7 @@
 
 // Contact Information
 
-$phone = "0208 300 8833";
+$phone = "0800 000 2200";
 $email = "info@kyleo.co.uk";
 
 $websiteTitle = "Kyle's testing";
