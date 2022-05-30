@@ -16,9 +16,12 @@
 
 <a href="#"><?php echo $phone; ?></a>
 
+<hr>
 
 <?php
 
 include('components/nav.php');
 
 ?> 
+
+<hr>
