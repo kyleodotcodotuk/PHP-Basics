@@ -14,4 +14,4 @@ jobs:
           server: cloud.resknow.co
           username: kyleresknow
           password: ${{ secrets.ftp_password }}
-          local-dir: /public_html/phplearning
+          server-dir: /public_html/phplearning/
