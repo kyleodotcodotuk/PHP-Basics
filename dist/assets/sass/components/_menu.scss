@@ -1,0 +1,35 @@
+$showMenuAt: 900px !default;
+
+.menu {
+  display: none;
+  background-color: #72a493;
+  font-family: trajan-pro-3, serif;
+
+  .menu__item {
+    position: relative;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .menu__dropdown {
+    background-color: var(--menu-dropdown-background-color, white);
+    box-shadow: var(--menu-dropdown-shadow, var(--shadow-xl));
+    left: calc(var(--menu-dropdown-h-offset, var(--space-2)) * -1);
+    min-width: var(--menu-dropdown-min-width, 10rem);
+    padding: var(--menu-dropdown-padding, var(--space-4) var(--space-6));
+    position: absolute;
+    top: var(--menu-dropdown-v-offset, var(--space-8));
+  }
+
+  @media (min-width: $showMenuAt) {
+    display: block;
+  }
+}

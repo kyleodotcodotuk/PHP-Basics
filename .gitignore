@@ -1,2 +1,4 @@
 # Generic
 /ignore
+node_modules
+/_site

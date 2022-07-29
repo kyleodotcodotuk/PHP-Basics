@@ -1,3 +1,4 @@
+<div class="wrapper">
 <ul>
   <li class="current-menu-item"><a href="#">Home</a></li>
   <li><a href="#">Menu 1</a>
@@ -26,15 +27,10 @@
   <li><a href="#">Menu 3</a>
     <ul>
       <li class="dir"><a href="#">Sub Menu 1</a></li>
-      <li class="dir"><a href="#">Sub Menu 2 THIS IS SO LONG IT MIGHT CAUSE AN ISSUE BUT MAYBE NOT?</a>
-        <ul>
-          <li><a href="#">Category 1</a></li>
-          <li><a href="#">Category 2</a></li> 
-        </ul>
-      </li>
       <li><a href="#">Sub Menu 3</a></li> 
     </ul>
   </li>
   <li><a href="#">Menu 4</a></li> 
   <li><a href="#">Contact Us</a></li>
 </ul>
+</div>
