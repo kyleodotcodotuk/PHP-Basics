@@ -1,5 +1,0 @@
-@each $token, $value in token('radius') {
-	.radius-#{$token} {
-		border-radius: #{$value};
-	}
-}

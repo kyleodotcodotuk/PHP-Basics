@@ -1,5 +1,5 @@
 <div class="wrapper">
-<ul>
+<ul class="menu">
   <li class="current-menu-item"><a href="#">Home</a></li>
   <li><a href="#">Menu 1</a>
     <ul>

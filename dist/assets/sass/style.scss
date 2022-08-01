@@ -1,23 +1,20 @@
-@import 'functions/*.scss';
+@import "functions/*.scss";
 
 /* Design Tokens */
-@import 'tokens';
+@import "tokens";
 
 /* Base Styles */
-@import 'base';
+@import "base";
 
 /* Blocks */
-@import 'blocks/*.scss';
+@import "blocks/*.scss";
 
 /* Components */
-@import 'components/*.scss';
+@import "components/*.scss";
 
 /* Vendor */
-@import 'vendor/*.scss';
+@import "vendor/*.scss";
 
 /* Overrides */
-@import 'overrides/*.scss';
-@import 'overrides/**/*.scss';
-
-/* Utilities */
-@import 'utilities/*.scss';
+@import "overrides/*.scss";
+@import "overrides/**/*.scss";

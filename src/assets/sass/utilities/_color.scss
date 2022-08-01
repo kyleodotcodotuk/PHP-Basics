@@ -1,9 +1,0 @@
-@each $token, $value in token('color') {
-	.c-#{$token} {
-		color: #{$value};
-	}
-
-	.bg-#{$token} {
-		background-color: #{$value};
-	}
-}
