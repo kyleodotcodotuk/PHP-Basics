@@ -1,7 +1,11 @@
+<div class="wrapper">
 <?php 
-        $files = scandir('./video');
-        sort($files); // this does the sorting
-        foreach($files as $file){
-        echo'<a href="/video/'.$file.'">'.$file.'</a>';
-        }
-        ?>
+$d = dir("./video"); 
+echo "<ul>";
+while (false !== ($entry = $d->read())) {
+   echo "<li><a href='{$entry}'>{$entry}</a></li>";
+}
+echo "</ul>";
+$d->close();
+?>
+</div>
