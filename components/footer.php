@@ -1,5 +1,5 @@
 <footer>
-    <div class="wrapper">
+<div class="wrapper">
 
 <?php echo  $websiteTitle; ?>
 
