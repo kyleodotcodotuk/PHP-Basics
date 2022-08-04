@@ -14,19 +14,6 @@
 
 <header>
 <div class="wrapper">
-    <h1>Header</h1>
-    <img src="https://picsum.photos/200" alt="">
-    <a href="#"><?php echo $phone; ?></a>
+    <h1>Video feed</h1> 
 </div>
 </header>
-
-
-<hr>
-
-<?php
-
-include('components/nav.php');
-
-?> 
-
-<hr>

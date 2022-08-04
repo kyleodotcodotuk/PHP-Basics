@@ -297,11 +297,18 @@ cookie-consent-banner button {
 /* Blocks */
 /* Components */
 footer {
-  background-color: red;
+  background-color: #000;
+  padding: var(--space-10) 0;
+  color: #fff;
+  text-align: center;
 }
 
 header {
-  background-color: red;
+  background-color: #000;
+  padding: var(--space-10) 0;
+}
+header h1 {
+  color: #fff;
 }
 
 .menu {
@@ -419,6 +426,27 @@ header {
   .mobile-menu {
     display: none;
   }
+}
+
+.video-feed {
+  padding: var(--space-10) 0;
+}
+.video-feed ul li {
+  display: grid;
+  gap: 10px;
+  margin: var(--space-4) auto;
+}
+.video-feed ul li:first-of-type {
+  display: none;
+}
+.video-feed ul li:nth-of-type(2) {
+  display: none;
+}
+.video-feed ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: var(--space-4);
+  background-color: #000;
 }
 
 .wrapper {

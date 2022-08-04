@@ -1,3 +1,8 @@
 header {
-  background-color: red;
+  background-color: #000;
+  padding: var(--space-10) 0;
+
+  h1 {
+    color: #fff;
+  }
 }
