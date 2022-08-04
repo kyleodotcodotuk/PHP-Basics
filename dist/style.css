@@ -431,22 +431,8 @@ header h1 {
 .video-feed {
   padding: var(--space-10) 0;
 }
-.video-feed ul li {
-  display: grid;
-  gap: 10px;
-  margin: var(--space-4) auto;
-}
-.video-feed ul li:first-of-type {
-  display: none;
-}
-.video-feed ul li:nth-of-type(2) {
-  display: none;
-}
-.video-feed ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: var(--space-4);
-  background-color: #000;
+.video-feed h2 {
+  padding: var(--space-10) 0;
 }
 
 .wrapper {

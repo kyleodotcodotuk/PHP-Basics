@@ -1,25 +1,7 @@
 .video-feed {
   padding: var(--space-10) 0;
 
-  ul {
-    li {
-      display: grid;
-      gap: 10px;
-      margin: var(--space-4) auto;
-
-      &:first-of-type {
-        display: none;
-      }
-      &:nth-of-type(2) {
-        display: none;
-      }
-
-      a {
-        color: #fff;
-        text-decoration: none;
-        padding: var(--space-4);
-        background-color: #000;
-      }
-    }
+  h2 {
+    padding: var(--space-10) 0;
   }
 }
