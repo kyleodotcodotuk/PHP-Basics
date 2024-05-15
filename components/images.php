@@ -6,7 +6,7 @@ function get_image_urls($folder) {
     $scandir = scandir($folder);
     foreach ($scandir as $item) {
       if (in_array($item, array('.', '..'))) continue;
-      $path = $folder . "src/assets/images" . $item;
+      $path = $folder . DIRECTORY_SEPARATOR . $item; // Use DIRECTORY_SEPARATOR for portability
       if (is_file($path) && getimagesize($path) !== false) {
         $images[] = array(
           'url' => $path,
