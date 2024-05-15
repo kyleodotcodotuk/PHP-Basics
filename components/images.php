@@ -21,7 +21,7 @@ function get_image_urls($folder) {
   return $images;
 }
 
-$images = get_image_urls('src/assets/images');
+$images = get_image_urls('../src/assets/images/');
 
 // Rest of the code remains the same (looping and displaying images)
 if ( !empty($images) ) :
