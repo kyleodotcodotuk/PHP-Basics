@@ -11,11 +11,11 @@ function get_image_urls($folder) {
     $scandir = scandir($folder);
     foreach ($scandir as $item) {
       if (in_array($item, array('.', '..'))) continue;
-      $path = $folder . DIRECTORY_SEPARATOR . $item; 
+      $path = $item; // Use only the filename within the folder
       if (is_file($path) && getimagesize($path) !== false) {
         $images[] = array(
           'url' => $path,
-          'alt' => pathinfo($path, PATHINFO_FILENAME) 
+          'alt' => pathinfo($path, PATHINFO_FILENAME)
         );
       }
     }
@@ -23,7 +23,7 @@ function get_image_urls($folder) {
   return $images;
 }
 
-$images = get_image_urls('../src/assets/images');
+$images = get_image_urls('src/assets/images'); // Assuming 'src/assets/images' is relative to images.php
  
 if ( !empty($images) ) :
   foreach ($images as $image) : ?>
