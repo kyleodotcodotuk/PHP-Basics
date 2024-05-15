@@ -1,3 +1,5 @@
+<h2>Images please</h2>
+
 <?php
 
 ini_set('display_errors', 1);
