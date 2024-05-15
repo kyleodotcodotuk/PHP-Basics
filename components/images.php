@@ -1,4 +1,4 @@
-<h2>Images please</h2>
+<h2>Images please 3</h2>
 
 <?php
 
@@ -27,7 +27,7 @@ $images = get_image_urls('/assets/images'); // Assuming 'src/assets/images' is r
  
 if ( !empty($images) ) :
   foreach ($images as $image) : ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+    <img src="#">
   <?php endforeach;
 endif;
 ?>
