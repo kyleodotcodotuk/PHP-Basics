@@ -20,7 +20,7 @@ function get_image_urls($folder) {
   return $images;
 }
 
-$images = get_image_urls('/assets/images'); // Assuming 'src/assets/images' is relative to images.php
+$images = get_image_urls('../src/assets/images'); // Assuming 'src/assets/images' is relative to images.php
  
 if ( !empty($images) ) :
   foreach ($images as $image) : ?>
