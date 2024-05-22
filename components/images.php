@@ -32,7 +32,7 @@
     endif; 
     ?>
 
-    <img src="/src/assets/images/010.jpg">
+    <img src="/preview/src/assets/images/010.jpg">
 
     <p>Paragraph underneath</p>
 
