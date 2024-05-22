@@ -1,6 +1,8 @@
 <section>
   <div class="grid">
 
+  <h2>Image repeating grid</h2>
+
   <?php
 
     function get_image_urls($folder) {
@@ -29,6 +31,8 @@
       <?php endforeach;
     endif; 
     ?>
+
+    <p>Paragraph underneath</p>
 
   </div>
 </section>
