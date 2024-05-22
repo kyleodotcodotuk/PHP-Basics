@@ -2,12 +2,7 @@
   <div class="wrapper flow flow-space-10"> 
  
     <h2>Images please</h2>
-
-    <div class="grid gap-6">
-
-    <?php include 'images.php'; ?>
-
-    </div>
+ 
 
       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/CbMNISTzw20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
