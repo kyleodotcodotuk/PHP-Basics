@@ -5,26 +5,23 @@
 
     <?php
 
-      function get_image_urls($folder) {
-        $images = array();
-        if (is_dir($folder)) {
-          $scandir = scandir($folder);
-          
-          foreach ($scandir as $item) {
-            if (in_array($item, array('.', '..'))) continue;
-            $path = $item; // Use only the filename within the folder
-            if (is_file($path) && getimagesize($path) !== false) {
-              $images[] = array(
-                'url' => $path,
-                'alt' => pathinfo($path, PATHINFO_FILENAME)
-              );
-            }
-          }
-        }
-        return $images;
-      }
+    function get_image_urls($folder) {
+      if (is_dir($folder)) {
+        $scandir = scandir($folder);
+        foreach ($scandir as $item) {
+          if (in_array($item, array('.', '..'))) continue;
+          $path = $item;
 
-      $images = get_image_urls('../preview/src/assets/images'); // Assuming 'src/assets/images' is relative
+          // Print the filename (adjust formatting as needed)
+          echo "Found file: $path <br>";
+        }
+      } else {
+        echo "Error: Directory '$folder' does not exist.";
+      }
+    }
+
+    get_image_urls('../preview/src/assets/images'); // Assuming 'src/assets/images' is relative
+
 
       if (!empty($images)):
         foreach ($images as $image): ?>
