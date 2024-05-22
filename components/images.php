@@ -5,13 +5,11 @@
 
     <?php
 
-   
-
       function get_image_urls($folder) {
         $images = array();
         if (is_dir($folder)) {
           $scandir = scandir($folder);
-          echo '<pre>'; print_r($scandir); echo '</pre>'
+          
           foreach ($scandir as $item) {
             if (in_array($item, array('.', '..'))) continue;
             $path = $item; // Use only the filename within the folder
