@@ -23,7 +23,7 @@
       return $images;
     }
 
-    $images = get_image_urls('/../preview/src/assets/images'); // Assuming 'src/assets/images' is relative
+    $images = get_image_urls('/preview/src/assets/images'); // Assuming 'src/assets/images' is relative
 
     if ( !empty($images) ) :
       foreach ($images as $image) : ?>
