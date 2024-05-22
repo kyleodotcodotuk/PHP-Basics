@@ -5,6 +5,8 @@
 
     <?php
 
+    echo '<pre>'; print_r($scandir); echo '</pre>'
+
       function get_image_urls($folder) {
         $images = array();
         if (is_dir($folder)) {
@@ -33,7 +35,7 @@
     ?>
     
 
-    <img src="/preview/src/assets/images/010.jpg" height="300px" width="300px">
+    <img src="/preview/src/assets/images/010.jpg" height="300" width="300">
 
     <p>Paragraph underneath</p>
 
